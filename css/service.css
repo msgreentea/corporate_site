@@ -10,9 +10,16 @@
 .service-contents dl:first-child {
   border-top: 1px solid black;
 }
+dl {
+  display: flex;
+}
 dl dt {
   width: 25%;
   margin: 20px auto 25px 0;
+  justify-content: space-between;
+}
+dl dd p {
+  padding-left: 45px;
 }
 dl dd {
   width: 75%;

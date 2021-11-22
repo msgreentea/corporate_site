@@ -1,5 +1,5 @@
 .blog-content img {
-  width: 390px;
+  width: 100%;
 }
 .blog-contents {
   display: flex;
@@ -9,4 +9,5 @@
 }
 .blog-content {
   padding-top: 30px;
+  width: 365px;
 }

@@ -4,13 +4,19 @@ dl {
 }
 dt,
 dd {
+
   padding: 25px;
   border-top: 1px solid black;
+  border-right: none;
+  border-left: none;
 }
-dt:last-child,
+.dt-last {
+  border-bottom: 1px solid black;
+}
 dd:last-child {
   border-bottom: 1px solid black;
 }
+
 dt {
   width: 30%;
   text-align: center;
