@@ -213,8 +213,7 @@ p {
   padding-right: 10px;
   border-left: 1px solid white;
 }
-#footer nav a:not(:first-child) {
-}
+
 @media screen and (max-width:768px) {
   .service-content {
     width: 100%;
