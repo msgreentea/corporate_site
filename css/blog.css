@@ -9,5 +9,33 @@
 }
 .blog-content {
   padding-top: 30px;
-  width: 365px;
+  width: 100%;
+}
+
+.blog-content {
+  width: 32%;
+}
+.blog .blog-contents {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.link {
+  display: block;
+  width: 50%;
+  font-size: 24px;
+  text-align: center;
+  padding: 100px;
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .blog-content {
+    width: 100%;
+  }
 }

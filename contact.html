@@ -12,11 +12,11 @@
 
 <body>
   <!-- 上部分 -->
-  <header id="header">
+  <header class="header">
     <div class="logo">
       <h1><a href="index.html">TECH</a></h1>
     </div>
-    <nav>
+    <nav class="nav nav-wide">
       <ul>
         <li><a href="index.html">ホーム</a></li>
         <li><a href="service.html">事業内容</a></li>
@@ -27,11 +27,27 @@
         <li><a href="contact.html">お問い合わせ</a></li>
       </ul>
     </nav>
+    <div id="menu" class="menu">
+      <span class="menu__line--top"></span>
+      <span class="menu__line--middle"></span>
+      <span class="menu__line--bottom"></span>
+    </div>
+    <nav id="nav-hamburger" class="nav nav-hamburger">
+      <ul>
+        <li class="hamburger-item"><a href="index.html">ホーム</a></li>
+        <li class="hamburger-item"><a href="service.html">事業内容</a></li>
+        <li class="hamburger-item"><a href="news.html">ニュース</a></li>
+        <li class="hamburger-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="hamburger-item"><a href="company.html">会社概要</a></li>
+        <li class="hamburger-item"><a href="recruit.html">採用情報</a></li>
+        <li class="hamburger-item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
   </header>
-  <section id="mainvisual" class="mainvisual">
+  <!-- 上部分 -->
+  <section class="mainvisual-short">
     <h2>採用情報</h2>
   </section>
-  <!-- 上部分 -->
   <main>
     <section id="contact-form" class="container">
       <form action="">
@@ -58,7 +74,7 @@
       </form>
       <input class="contact-button" type="submit" value="お申し込み">
     </section>
-    <footer id="footer" class="footer">
+    <footer class="footer">
       <p>&copy; 2020 TECH inc.</p>
       <nav>
         <ul>
@@ -72,8 +88,9 @@
         </ul>
       </nav>
     </footer>
-  </main>
+    <script src="./js/main.js"></script>
     <!-- 下部分 -->
+  </main>
 </body>
 
 </html>

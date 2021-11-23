@@ -7,6 +7,9 @@ input {
   font-size: 16px;
   align-items: center;
 }
+.contact-button {
+  background-color: #cd0323;
+}
 textarea {
   width: 100%;
   margin: 10px 0 30px;
