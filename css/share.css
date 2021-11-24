@@ -201,23 +201,29 @@ img {
     transform: rotate(-45deg);
   }
   .in {
+    /* 左から右に移動させる */
     transform: translateX(100%);
   }
   .nav-hamburger {
     position: absolute;
-    width: 100vw;
     height: 100vh;
+    /* widthを設定して */
+    width: 100%;
+    /* その分左にずらして隠す */
     left: -100%;
     background-color: white;
+    /* 0.7秒かけてnav-hamburgerがスライドする */
     transition: 0.7s;
     text-align: center;
   }
   .nav-hamburger ul {
+    text-align: center;
     padding-top: 80px;
   }
-  .nav-hamburger ul li {
+  .hamburger-item {
     list-style-type: none;
     margin-top: 50px;
+    color: #0033CC;
   }
   /* ハンバーガー終わり */
 
