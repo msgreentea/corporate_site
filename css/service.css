@@ -1,9 +1,7 @@
 .service-content {
   display: flex;
-  /* flex-wrap: wrap; */
   border-top: 1px solid black;
   padding: 20px 0;
-  /* justify-content: space-between; */
 }
 .service-content:last-child {
   border-bottom: 1px solid black;
@@ -18,39 +16,6 @@ h4 {
   font-size: 24px;
   padding-bottom: 10px;
 }
-/* .service-contents dl {
-  display: flex;
-  flex-wrap: wrap;
-  border-bottom: 1px solid black;
-}
-.service-contents dl:first-child {
-  border-top: 1px solid black;
-}
-dl {
-  flex-flow: row wrap;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 1225px;
-}
-dt {
-  width: 25%;
-  margin: 20px auto 25px 0;
-  padding-right: 10px;
-  flex-basis: 25%;
-}
-dd {
-  width: 75%;
-  padding: 5px 20px;
-  margin: 20px auto;
-  flex-basis: 75%;
-}
-dd h4 {
-  font-size: 24px;
-}
-dd p {
-  padding-left: 45px;
-} */
 
 @media screen and (max-width: 768px) {
   .service-content {

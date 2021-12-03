@@ -33,13 +33,10 @@ img {
   padding-bottom: 35px;
 }
 .wrapper {
-  /* padding: 85px 110px; */
   padding: 50px 8%;
-  /* width: 90%; */
   margin: 0 auto;
 }
 .container {
-  /* padding: 85px 180px; */
   width: 85%;
   margin: 85px auto;
 }
@@ -50,11 +47,9 @@ img {
   display: block;
   background-color: #cd0323;
   color: white;
-  width: 300px;
   padding: 15px 30px;
   font-weight: bold;
   text-align: center;
-  /* margin: 45px auto; */
   transition: all 0.5s;
 }
 .btn-center {
@@ -103,7 +98,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* align-items: center、display:flexじゃないと動作しない。なんで？ */
 }
 .mainvisual-short h2 {
   font-size: 30px;
@@ -206,12 +200,13 @@ img {
   }
   .nav-hamburger {
     position: absolute;
+    top:0;
     height: 100vh;
     /* widthを設定して */
     width: 100%;
     /* その分左にずらして隠す */
     left: -100%;
-    background-color: white;
+    background-color: #ffffff;
     /* 0.7秒かけてnav-hamburgerがスライドする */
     transition: 0.7s;
     text-align: center;
@@ -248,14 +243,7 @@ img {
   .footer nav ul {
     flex-direction: column;
     text-align: center;
-    /* display: none; */
   }
-  /* .footer ul a {
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-left: 1px solid white;
-  } */
   .footer nav a {
     border-left: none;
   }
