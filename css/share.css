@@ -79,7 +79,9 @@ img {
 .nav h1 {
   font-size: 24px;
 }
-
+.nav-wide li:not(first-child) {
+  padding-left: 30px;
+}
 .menu,
 .nav-hamburger {
   display: none;
